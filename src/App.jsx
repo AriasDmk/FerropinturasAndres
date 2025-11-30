@@ -4,6 +4,7 @@ import { InventarioProvider } from './context/InventarioContext';
 import HomeView from './views/HomeView';
 import InventarioView from './views/InventarioView';
 import VentasView from './views/VentasView';
+import ClientesView from './views/ClientesView';
 import './App.css';
 
 const NavLink = ({ to, children }) => {
@@ -49,6 +50,7 @@ function AppContent() {
         <div style={{ display: 'flex', alignItems: 'center' }}>
           <NavLink to="/">Inicio</NavLink>
           <NavLink to="/inventario">Inventario General</NavLink>
+          <NavLink to="/clientes">Clientes</NavLink>
 
           <Link
             to="/ventas"
@@ -75,6 +77,7 @@ function AppContent() {
         <Routes>
           <Route path="/" element={<HomeView />} />
           <Route path="/inventario" element={<InventarioView />} />
+          <Route path="/clientes" element={<ClientesView />} />
           <Route path="/ventas" element={<VentasView />} />
         </Routes>
       </main>
