@@ -1,16 +1,47 @@
-# React + Vite
+# Ferropinturas ERP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido a **Ferropinturas ERP**, un sistema integral de gestión empresarial diseñado específicamente para el negocio de ferretería y pinturas. Este aplicativo moderno y eficiente permite administrar inventarios, ventas y métricas clave desde una interfaz unificada.
 
-Currently, two official plugins are available:
+## 🚀 Características Principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 📊 Panel de Control (Dashboard)
+- **Vista General**: Resumen inmediato de la actividad del negocio.
+- **Métricas Clave**: Visualización rápida de ventas diarias, pedidos pendientes y estado del inventario.
+- **Accesos Rápidos**: Navegación directa a las funciones más utilizadas.
 
-## React Compiler
+### 📦 Gestión de Inventario
+- **Control de Stock**: Monitoreo en tiempo real de las existencias de productos.
+- **Organización**: Clasificación por categorías (Pinturas, Herramientas, Solventes, etc.).
+- **Alertas**: Indicadores visuales para productos con bajo stock.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 💰 Punto de Venta (POS)
+- **Interfaz Ágil**: Diseño optimizado para registrar ventas de manera rápida.
+- **Búsqueda Inteligente**: Encuentra productos por nombre o categoría al instante.
+- **Carrito Interactivo**: Gestión dinámica de los productos antes de finalizar la venta.
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías Utilizadas
+- **Frontend**: React + Vite
+- **Estilos**: CSS Moderno con variables y diseño responsivo
+- **Navegación**: React Router v6
+- **Estado**: Context API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 Instalación y Uso
+
+1.  **Clonar el repositorio**:
+    ```bash
+    git clone https://github.com/AriasDmk/FerropinturasAndres.git
+    ```
+
+2.  **Instalar dependencias**:
+    ```bash
+    cd ferropinturas-erp
+    npm install
+    ```
+
+3.  **Ejecutar en desarrollo**:
+    ```bash
+    npm run dev
+    ```
+
+---
+Desarrollado para Ferropinturas Andrés.
